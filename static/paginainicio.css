@@ -1,0 +1,54 @@
+body{
+  background: linear-gradient(#f5f6f7, 70% , #13678A);
+}
+.publicaciones{
+  width:50%;
+  margin-left:25%;
+  flex-direction:column;
+  display: inline-block;
+  padding:2.5rem;
+}
+.card-text{
+    text-align:center;
+}
+.tarjeta{
+    margin-top: 50px;
+    margin-left:12%;
+    flex-wrap:nowrap;
+    width:74.5%;
+    border: 1px solid lightgray;
+    font-family: 'inter', Fjalla One;
+    background-color: #e4e4e4;
+    border-radius: 3%;
+  }
+  .titulo{
+    font-size: 24px;
+    padding: 10px 10px 0 10px;;
+  }
+  .cuerpo{
+    display: flex;
+  }
+  #imagen{
+    position: relative;
+    width: 100%;
+    heigth: 100%;
+  }
+  .pie{
+    background: #6699ff;
+    padding: 10px;
+    text-align:center;
+    border-radius:3%;
+
+  }
+  .pie a{
+    text-decoration: none;
+    color: white;
+  }
+  .pie a:after {
+    position: absolute;
+  }
+
+  .buscar{
+    background-color: #012030;
+    color: #ffffff;
+  }

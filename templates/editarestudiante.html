@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/style.css">
+
+    <title>Editar perfil</title>
+
+</head>
+
+<body class="bod">
+    <nav class="navbar navbar-expand-xl navbar-dark sticky-top" style="background-color: #3F858C;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">JobMatchUp</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse show" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" aria-current="page" href="/perfil_usuario">Ir al perfil </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="contenedor" class="d-flex justify-content-center align-items-center">
+        <div class="izquierda">
+            <img src="/static/card3.png" alt="Imagen">
+        </div>
+        <div class="form-login">
+            <div class="h-100">
+                <h1> Aspirante </h1>
+                <form action="/registro_usuario" method="POST">
+                    <div class=" d-flex flex-column justify-content-center align-items-center">
+                        <input type="text" class="input form-control mb-3" name="descripcion"
+                            placeholder="Añade una descripcion sobre ti" aria-label="Correo"
+                            aria-describedby="input-group-right">
+                        <input type="text" class="input form-control mb-3" name="editar_nombre"
+                            placeholder="Cambia tu nombre de usuario" aria-label="Username"
+                            aria-describedby="input-group-right">
+                        <input type="text" class="input form-control mb-3" name="foto"
+                            placeholder="Añade una foto de perfil" aria-label="Carnet"
+                            aria-describedby="input-group-right">
+                        <input type="password" class="input form-control mb-3" name="contraseña"
+                            placeholder="Contraseña" aria-label="Password" aria-describedby="input-group-right">
+                        <input type="password" class="input form-control mb-3" name="confirm"
+                            placeholder="confirmar contraseña" aria-label="Password"
+                            aria-describedby="input-group-right">
+                        <div class="d-flex justify-content-between">
+                            <input type="submit" type="Editar">
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient(#f5f6f7, 70% , #13678A);
+    height: 100vh;
+}
+.aspirantes{
+    display: flex;
+    position: absolute;
+    overflow: auto;
+    margin-top: 50%;
+    left: 15%;
+    width: 80%;
+    height: 600px;
+}
+.izquierda{
+    top: 10%;
+    height: 100%;
+    width: 30%;
+    background:#C4EEF2;
+  }
+  img {
+    width:800px;
+    height:500px;
+  }
+  .h-100{
+    text-align: center;
+    width: 60%;
+    width:500px;
+    height:300px;
+    background-color: #13678A;
+}

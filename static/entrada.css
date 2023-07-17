@@ -1,0 +1,60 @@
+.simple-linear{
+    background: linear-gradient(#f5f6f7, 70% , #13678A);
+}
+.image{
+  display:flex;
+  position: relative;
+  left: 10%;
+  top:10px;
+  height: 200px;
+  width: 200px;
+}
+.card{
+    background-color: #e4e4e4;
+    margin-top:20%;
+}
+.text{
+    text-align:center;
+    margin-top:5%;
+}
+.texto_inicio{
+    left:30%;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'inter', Fjalla One;
+    margin-top:1%;
+}
+.texto{
+    top:80px;
+}
+footer {
+    background-color: #012030;
+    color: #fff;
+    margin-top: 15%;
+    padding: 30px;
+  }
+
+  .container {
+    max-width: 90%;
+  }
+
+  .col-md-6 {
+    display: flex;
+    align-items: center;
+  }
+
+  ul.list-inline {
+    text-align: center;
+  }
+
+  li.list-inline-item {
+    display: inline-block;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+/* Segunda Parte */
